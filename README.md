@@ -1,62 +1,105 @@
 # windowsix
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>project</title>
-        
-    <style>
-        /* Modify the background color */
-        .navbar-custom {
-            background-color:  #99ccff;
-            background-color: #99ccff;
-        }
-
-        .right-box {
-            position: absolute;
-            top: 20px;
-            right: 70px;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>민의 웹사이트</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-  <a class="navbar-brand" href="#"><img src="/symbol.jpg" alt="" style="width: 60px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">시간표</a>
-      <a class="nav-link" href="#">학식 메뉴</a>
-      <a class="nav-link" href="#">학점 계산기</a>
-        <a class="nav-link" href="#">버스 시간표</a>
-    </div>
-  </div>
-</nav>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
-</html>
-        <a class="navbar-brand" href="#"><img src="/symbol.jpg" alt="" style="width: 60px"></a>
-        <a class="nav-link active right-box" href="#">Log-in</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">시간표</a>
-                <a class="nav-link" href="#">학식 메뉴</a>
-                <a class="nav-link" href="#">학점 계산기</a>
-                <a class="nav-link" href="#">버스 시간표</a>
+    <div style = "display: flex;">
+        <div>
+            <h1>  h1  </h1>
+            <p> 오늘은 추석이라서 사람이 참 많다. <br/>
+                목걸이 사려고 했는데 문을 안 열었다. <br/>
+                분명 13시 30분에 연다고 가게 문 앞에 종이로 붙여놓으셨으면서 <br/> 왜 문을 
+                안 열어주신걸까...? <br/> 그래서 지금 원래 목걸이 사고 카페 가려고 했지만 <br/> 카페에서 공부 좀 
+                하다가 목걸이를 사야겠다. <strong>헤헤 </strong> </p>
+        
+            <input type="text" style = "width: 500px; height: 100px; font-size:90px ;">
+            <div>
+                <button style = "width:250px; height:100px; font-size:50px;" >룰루</button> 
+                
             </div>
+        
+            <div>
+                <button style = "width:250px; height:100px; font-size:50px;" >룰루</button> 
+            
+            </div>
+            <a href = "https://www.daum.net/" style = "font-size : 30px;" >다음으로 이동</a>
+        
         </div>
+        <div>
+            <h1>두 번째 블록</h1>
+            <img src = "https://postfiles.pstatic.net/MjAyMjA2MTJfMjE4/MDAxNjU0OTk5NzA3NTE1.1A-jyoMktXqBwDLl_A_iHcoGa6pcfzZ-7jtHtUMLfNMg.eQcWovyBPgIOfghNsdbFgnA98_LILbp9kJvS6vpudUUg.JPEG.gyaese/3472404649109950005_20200707153039607.jpg?type=w773" alt = "macaron"> 
+            <ul style = "font-size:25px;">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <ol style = "font-size:px;">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ol>
+            <table summary = "테이블" style = "width:300px; height:250px;"> 
+                <caption>조대 전자 컴공 귀염이들</caption>
+                <tr>
+                    <th>이름</th>
+                    <th>나이</th>
+                    <th>학번</th>
+                </tr>
+                <tr>
+                    <td>밍</td>
+                    <td>슴둘</td>
+                    <td>20학번</td>
+                </tr>
+                <tr>
+                    <td>뽀</td>
+                    <td>슴둘</td>
+                    <td>20학번</td>
+                </tr>
+                <tr>
+                    <td>은</td>
+                    <td>슴둘</td>
+                    <td>20학번</td>
+                </tr>
+                <tr>
+                    <td>손</td>
+                    <td>슴넷</td>
+                    <td>18학번</td>
+                </tr>
+            </table>
+                
+        </div>
+        <div>
+            <h1>세 번째  블록이에요</h1>
+            <form>
+                <input type = "text" style ="font-size:30px;">
+                <input type = "email"  style ="font-size:30px;">
+                <input type = "password"  style ="font-size:30px;">
+                <input type = "date" style ="font-size:30px;">
+                <input type = "checkbox" style ="font-size:30px;">체크박스<imput></br>
+                <select name ="coffee">
+                    <option value = "1">아메리카노</option>
+                    <option value = "2">아리카노</option>
+                    <option value = "3">아메노</option>
+                    
+                </select>
+                <div>
+                    <button type = "submit"  style ="font-size:30px;">완료</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body></html>
+    
+    
+    
+       
+    
+</body> 
+</html>
+
+<!--
+
+-->
